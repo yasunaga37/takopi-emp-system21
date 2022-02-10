@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.flex_test-box {
+	justify-content:center;      /* 横方向中央指定 */
+	display: flex;
+    /* background-color: #eee;  /* 背景色指定 */
+    padding:  10px;               /* 余白指定 */
+}
+
+.flex_test-item {
+	width:40%;
+    padding: 10px;
+    /* color:  #fff;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    background-color: #eeeeee;  /* 背景色指定 */
+}
+
+.flex_test-item:nth-child(1) {
+    /* background-color:  #2196F3; /* 背景色指定 */
+}
+
+.flex_test-item:nth-child(2) {
+    /* background-color:  #4CAF50; /* 背景色指定 */
+}
+
+
+/* table#employee_show, th, td,tr {
+	border: 1px solid #cccccc;
+} */
+table#employee_show {
+	font-size:25px;
+	width: 90%;
+}
+
+table#employee_show th {
+	width: 30%;
+	border: 1px solid #cccccc;
+}
+
+table#employee_show td {
+/* 	width: 60%; */
+	text-align:left;
+	border: 1px solid #cccccc;
+}
+
+table#license_show {
+	font-size:25px;
+/* 	width: 95%; */
+}
+
+table#license_show th {
+/* 	width: 10%; */
+	text-align:center;
+	border: 1px solid #cccccc;
+}
+
+table#license_show td {
+/* 	width: 35%; */
+	border: 1px solid #cccccc;
+}
